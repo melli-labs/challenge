@@ -4,7 +4,7 @@ with nixpkgs;
 devshell.mkShell {
   motd = "Hi 👋 and welcome to our hiring challenge!";
   packages = [
-    age # Use this to decrypt the `Part-2.md.gpg`
+    age # Use this to decrypt the `Part-2.md.encrypted`
 
     # We have added some exemplary languages,
     # you can enable them by uncommenting the respective lines.
