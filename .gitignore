@@ -1,0 +1,6 @@
+*.local.*
+
+.direnv
+result
+
+Part2.md
