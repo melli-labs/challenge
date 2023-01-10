@@ -9,8 +9,17 @@ devshell.mkShell {
     # We have added some exemplary languages,
     # you can enable them by uncommenting the respective lines.
 
+    ## C/C++
+    # clang
+
     ## CLOJURE
     # clojure
+
+    ## GO
+    # go
+
+    ## GLEAM
+    # gleam
 
     ## HASKELL
     # ghc
@@ -23,18 +32,23 @@ devshell.mkShell {
     # (python310.withPackages (p: with p; [ numpy ipython black ]))
 
     ## RUST
-    cargo
-    rustc
-    clippy
-    rust-analyzer
-    rustfmt
+    # cargo
+    # rustc
+    # clippy
+    # rust-analyzer
+    # rustfmt
+
+    ## ZIG
+    # zig
+    # zls
   ];
 
+  # Here you can define environment variables
   env = [
     # Uncomment to make rust-analyzer work ;-)
-    {
-      name = "RUST_SRC_PATH";
-      value = rustPlatform.rustLibSrc;
-    }
+    # {
+    #   name = "RUST_SRC_PATH";
+    #   value = rustPlatform.rustLibSrc;
+    # }
   ];
 }
