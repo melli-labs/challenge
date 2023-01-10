@@ -13,20 +13,23 @@ The registers in our little virtual machine hold integer values, and the registe
 
 In case the interpreter gets an invalid instruction, the execution should be halted and an appropriate error message should be shown.
 
+**Example:**
+
 For the following input
 
 ```
-mov a 104
-mov b 1
-add b a
+mov a 9999
+mov b -10
+add a b
 print a
-print b
+mov a 10
+print a
 ```
 
 your interpreter should output:
 
 ```
-hi
+✅
 ```
 
-Let's go!
+You need to run the instructions in the `input-1.asm` to obtain the decryption password for `Part-2.md.encrypted (see [README.md](README.md) for more details).
