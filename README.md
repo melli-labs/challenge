@@ -32,4 +32,4 @@ We can't wait to see what you come up with! 🤗
 
 Setting up a development environment and sharing it with your colleagues can be a very tedious and error-prone endeavor. At Melli, we use [Nix](https://nixos.org/) to solve the "it works on my machine"-problem. In case you haven't heard of Nix: It is a package manager, you can use to create highly-producible and isolated environments in a declarative way.
 
-The repository comes with a Nix setup. Check out the [devshell.nix](devshell.nix) file: We have added some exemplary languages, you can enable them by uncommenting the respective lines. Of course, it is not mandatory to use Nix and you can use the setup you are most comfortable with. But it will give you and idea about our workflow here at Melli.
+The repository comes with a Nix setup. Check out the [devshell.nix](devshell.nix) file: We have added some exemplary languages, you can enable them by uncommenting the respective lines. Of course, it is not mandatory to use Nix and you can use the setup you are most comfortable with. But it will give you an idea about our workflow here at Melli.
