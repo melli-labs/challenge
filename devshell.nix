@@ -14,6 +14,7 @@ devshell.mkShell {
 
     ## CLOJURE
     # clojure
+    # clojure-lsp
 
     ## GO
     # go
@@ -23,6 +24,7 @@ devshell.mkShell {
 
     ## HASKELL
     # ghc
+    # haskell-language-server
 
     ## JAVASCRIPT/ECMASCRIPT OR TYPESCRIPT
     # nodejs
