@@ -9,15 +9,19 @@ jnz b -3
 jnz d 3
 mov d 1
 jnz 1 -8
-mov b 23
+mov a 9484
+print a
+mov b 21
 mov a -1
-mov c 45
+mov c 9472
 print c
 add b a
 jnz b -2
+mov a 9488
+print a
 mov a 10
 print a
-mov a 124
+mov a 9474
 print a
 mov a 32
 print a
@@ -59,16 +63,20 @@ mov a 127942
 print a
 mov a 32
 print a
-mov a 124
+mov a 9474
 print a
 mov a 10
 print a
-mov b 23
+mov a 9492
+print a
+mov b 21
 mov a -1
-mov c 45
+mov c 9472
 print c
 add b a
 jnz b -2
+mov a 9496
+print a
 mov a 10
 print a
 mov a 84
