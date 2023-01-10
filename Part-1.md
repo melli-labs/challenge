@@ -32,4 +32,4 @@ your interpreter should output:
 ✅
 ```
 
-You need to run the instructions in the `input-1.asm` to obtain the decryption password for `Part-2.md.encrypted (see [README.md](README.md) for more details).
+You need to run the instructions in the `input-1.asm` to obtain the decryption password for `Part-2.md.encrypted` (see [README.md](README.md) for more details).
