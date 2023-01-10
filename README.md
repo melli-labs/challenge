@@ -4,7 +4,7 @@ Welcome to our hiring challenge! We're excited to see what you can do and how yo
 
 ## Part 1
 
-You'll find the task description for Part 1 in [this repository](./Part-1.md). You can solve it in any language of your choice. By the way, the languages we use at Melli include:
+You'll find the task description for Part 1 [here](Part-1.md). You can solve it in any language of your choice. By the way, the languages we use at Melli include:
 
 * Rust 🦀
 * Kotlin 🤖
