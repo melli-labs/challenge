@@ -35,10 +35,11 @@ devshell.mkShell {
 
     ## RUST
     # cargo
-    # rustc
+    # clang
     # clippy
-    # rust-analyzer
+    # rustc
     # rustfmt
+    # rust-analyzer
 
     ## ZIG
     # zig
