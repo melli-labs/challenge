@@ -2,7 +2,7 @@
 
 Our goal is to implement an interpreter for a simple virtual machine. No worries, at first this might sound more complicated than it is! 
 
-The registers in our little virtual machine hold integer values, and the registers are identified by a string (every valid string identifies a different register). The assembly language for this virtual machine is pretty simple. It includes the following instructions:
+The registers in our little virtual machine hold integer values, and the registers are identified by a string (every valid alphabetic string identifies a different register). The assembly language for this virtual machine is pretty simple. It includes the following instructions:
 
 * `add x y`: Add the values of the registers `x` and `y` and store the result into the `x` register
 * `mov x y`: Copy the value of `y` (which could be a constant or the contents of a register) into register `x`
